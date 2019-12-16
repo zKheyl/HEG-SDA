@@ -4,6 +4,7 @@ public class Colis{
     private double poids;
     private double largeur;
     private double profondeur;
+    private double hauteur;
     private double distanceAParcourir;
 
     public Colis() {
@@ -31,6 +32,14 @@ public class Colis{
 
     public void setProfondeur(double profondeur) {
         this.profondeur = profondeur;
+    }
+
+    public double getHauteur() {
+        return hauteur;
+    }
+
+    public void setHauteur(double hauteur) {
+        this.hauteur = hauteur;
     }
 
     public double getDistance() {

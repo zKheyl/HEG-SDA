@@ -1,63 +1,80 @@
 package ch.heg.ig.sda.business;
 
 public class Drone {
-    private int maxFlightDistance;
-    private String name;
-    private double poidsMax ;
-    private double formatMax;
+    // Dataset dans drones.csv
+    private Integer id;
+    private String marque;
+    private Double distanceMax //En KM
+    private Double poidsMax // En KG
+    private Double largeurColisMax //En
+    private Double hauteurColiMax // En MM
+    private Double profondeurColisMax // En MM
 
     public Drone() {
 
     }
 
-    public Drone(int maxFlightDistance, String name, double  capacity) {
-        this.maxFlightDistance = maxFlightDistance;
-        this.name = name;
-        this.poidsMax = capacity;
+    public Drone(int distanceMax, String marque, double  poidsMax) {
+        this.distanceMax = distanceMax;
+        this.marque = marque;
+        this.poidsMax = poidsMax;
 
     }
 
     @Override
     public String toString() {
         return "Drone{" +
-                "name='" + name +
-                ", maxFlightDistance=" + maxFlightDistance + '\'' +
+                "marque='" + marque +
+                ", distanceMax=" + distanceMax + '\'' +
                 ", poidsMax=" + poidsMax +
                 '}';
     }
 
-    public int getMaxFlightDistance() {
-        return maxFlightDistance;
+    public String getMarque() {
+        return marque;
     }
 
-    public void setMaxFlightDistance(int maxFlightDistance) {
-        this.maxFlightDistance = maxFlightDistance;
+    public void setMarque(String marque) {
+        this.marque = marque;
     }
 
-    public String getName() {
-        return name;
+    public Double getDistanceMax() {
+        return distanceMax;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setDistanceMax(Double distanceMax) {
+        this.distanceMax = distanceMax;
     }
 
-    public int getPoidsMax() {
+    public Double getPoidsMax() {
         return poidsMax;
     }
 
-    public void setPoidsMax(double capacity) {
-        this.poidsMax = capacity;
+    public void setPoidsMax(Double poidsMax) {
+        this.poidsMax = poidsMax;
     }
 
-    public double getFormatMax() {
-        return formatMax;
+    public Double getLargeurColisMax() {
+        return largeurColisMax;
     }
 
-    public void setFormatMax(double formatMax) {
-        this.formatMax = formatMax;
+    public void setLargeurColisMax(Double largeurColisMax) {
+        this.largeurColisMax = largeurColisMax;
     }
 
+    public Double getHauteurColiMax() {
+        return hauteurColiMax;
+    }
 
+    public void setHauteurColiMax(Double hauteurColiMax) {
+        this.hauteurColiMax = hauteurColiMax;
+    }
 
+    public Double getProfondeurColisMax() {
+        return profondeurColisMax;
+    }
+
+    public void setProfondeurColisMax(Double profondeurColisMax) {
+        this.profondeurColisMax = profondeurColisMax;
+    }
 }
