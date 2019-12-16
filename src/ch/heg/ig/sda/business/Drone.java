@@ -3,7 +3,7 @@ package ch.heg.ig.sda.business;
 public class Drone {
     private int maxFlightDistance;
     private String name;
-    private double poidsMax;
+    private double poidsMax ;
     private double formatMax;
 
     public Drone() {
