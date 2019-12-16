@@ -5,10 +5,17 @@
  */
 package ch.heg.ig.sda.app;
 
+import ch.heg.ig.sda.business.Drone;
+
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Helloworld");
+        Drone drone1 = new Drone(20,"DronevenerV1", 5);
+
+        Drone drone2 = new Drone(15,"DronePOURAVOSV1", 2);
+
+        System.out.println(drone1.toString());
+        System.out.println(drone2.toString());
     }
 
 }
