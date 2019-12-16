@@ -3,14 +3,14 @@ package ch.heg.ig.sda.business;
 public class Drone {
     private int maxFlightDistance;
     private String name;
-    private int poidsMax;
+    private double poidsMax;
     private double formatMax;
 
     public Drone() {
 
     }
 
-    public Drone(int maxFlightDistance, String name, int  capacity) {
+    public Drone(int maxFlightDistance, String name, double  capacity) {
         this.maxFlightDistance = maxFlightDistance;
         this.name = name;
         this.poidsMax = capacity;
@@ -46,7 +46,7 @@ public class Drone {
         return poidsMax;
     }
 
-    public void setPoidsMax(int capacity) {
+    public void setPoidsMax(double capacity) {
         this.poidsMax = capacity;
     }
 
