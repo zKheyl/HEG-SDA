@@ -7,14 +7,14 @@ public class Drone {
     private Double distanceMax //En KM
     private Double poidsMax // En KG
     private Double largeurColisMax //En
-    private Double hauteurColiMax // En MM
+    private Double hauteurColisMax // En MM
     private Double profondeurColisMax // En MM
 
     public Drone() {
 
     }
 
-    public Drone(int distanceMax, String marque, double  poidsMax) {
+    public Drone(double distanceMax, String marque, double  poidsMax) {
         this.distanceMax = distanceMax;
         this.marque = marque;
         this.poidsMax = poidsMax;
@@ -62,11 +62,11 @@ public class Drone {
         this.largeurColisMax = largeurColisMax;
     }
 
-    public Double getHauteurColiMax() {
+    public Double getHauteurColisMax() {
         return hauteurColiMax;
     }
 
-    public void setHauteurColiMax(Double hauteurColiMax) {
+    public void setHauteurColisMax(Double hauteurColisMax) {
         this.hauteurColiMax = hauteurColiMax;
     }
 

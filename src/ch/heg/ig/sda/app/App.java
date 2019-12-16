@@ -9,7 +9,6 @@ import ch.heg.ig.sda.business.Drone;
 
 public class App {
 
-    private List
 
     public static void main(String[] args) {
         Drone drone1 = new Drone(20,"DronevenerV1", 5);
