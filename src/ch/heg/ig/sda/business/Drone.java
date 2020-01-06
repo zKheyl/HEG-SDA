@@ -4,17 +4,17 @@ public class Drone {
     // Dataset dans drones.csv
     private Integer id;
     private String marque;
-    private Double distanceMax //En KM
-    private Double poidsMax // En KG
-    private Double largeurColisMax //En
-    private Double hauteurColiMax // En MM
-    private Double profondeurColisMax // En MM
+    private double distanceMax; //En KM
+    private double poidsMax; // En KG
+    private double largeurColisMax; //En
+    private double hauteurColiMax; // En MM
+    private double profondeurColisMax; // En MM
 
     public Drone() {
 
     }
 
-    public Drone(int distanceMax, String marque, double  poidsMax) {
+    public Drone(double distanceMax, String marque, double  poidsMax) {
         this.distanceMax = distanceMax;
         this.marque = marque;
         this.poidsMax = poidsMax;

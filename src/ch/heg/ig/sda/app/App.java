@@ -7,9 +7,9 @@ package ch.heg.ig.sda.app;
 
 import ch.heg.ig.sda.business.Drone;
 
-public class App {
+import java.util.List;
 
-    private List
+public class App {
 
     public static void main(String[] args) {
         Drone drone1 = new Drone(20,"DronevenerV1", 5);
