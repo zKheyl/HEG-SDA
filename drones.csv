@@ -1,4 +1,4 @@
 id;marque;distanceMax;poidsMax;largeurColisMax;hauteurColisMax;profondeurColisMax
-1;"Pooky";2.5;1.0;110;190;130
-2;"Terminator";5.0;2.5;120;200;140
-3;"MobyDick";10.0;5.0;150;250;200
+1;'Pooky';2.5;1.0;110;190;130
+2;'Terminator';5.0;2.5;120;200;140
+3;'MobyDick';10.0;5.0;150;250;200
